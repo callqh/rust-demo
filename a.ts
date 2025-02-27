@@ -3,6 +3,8 @@ import { a } from './dep';
 console.log(a);
 const id ='cls';
 
+
+
 if (import.meta.hot) {
   // self accept without reload the page
   import.meta.hot.accept(mod => {
